@@ -1,3 +1,14 @@
+/*
+1
+1
+1
+1
+1
+1
+1
+1
+1
+*/
 const $ = new Env('百度签到')
 $.VAL_cookies = $.getdata('chavy_cookie_tieba2') || $.getdata('CookieTB2')
 
