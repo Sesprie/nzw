@@ -1,5 +1,5 @@
 const $ = new Env('百度签到')
-$.VAL_cookies = $.getdata('chavy_cookie_tieba2') || $.getdata('CookieTB')
+$.VAL_cookies = $.getdata('chavy_cookie_tieba2') || $.getdata('CookieTB2')
 
 $.CFG_isOrderBars = $.getdata('CFG_tieba_isOrderBars') || 'false' // 1: 经验排序, 2: 连签排序
 $.CFG_maxShowBars = $.getdata('CFG_tieba_maxShowBars') * 1 || 15 //每次通知数量
