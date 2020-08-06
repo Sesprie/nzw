@@ -1,5 +1,5 @@
 const cookieName = '百度贴吧'
-const cookieKey = 'chavy_cookie_tieba'
+const cookieKey = 'chavy_cookie_tieba2'
 const chavy = init()
 const cookieVal = $request.headers['Cookie']
 
