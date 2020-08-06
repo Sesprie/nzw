@@ -31,7 +31,7 @@ tieba.baidu.com
 # 189及以前版本
 ^https?:\/\/tieba\.baidu\.com\/?.? url script-response-body tieba.cookie.js
 # 190及以后版本
-^https?:\/\/tieba\.baidu\.com\/?.? url script-request-header tieba.cookie.js
+^https?:\/\/tieba\.baidu\.com\/?.? url script-request-header https://raw.githubusercontent.com/zmmmasa/nzw/master/chavyleung/tieba/tieba.cookie.js
 
 [task_local]
 1 0 * * * tieba.js
